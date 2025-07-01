@@ -1,4 +1,12 @@
 [build]
+
   # The site is purely static so no build command is required.
   publish = "."
+
+=======
+  publish = "./"
+  command = ""
+
+[build.environment]
+  NODE_VERSION = "16"
 
